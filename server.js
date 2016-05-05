@@ -7,8 +7,8 @@ var server = new Hapi.Server();
 
 // adding a new connection that can be listened on
 server.connection({
-  port: 3000,
-  host: 'localhost',
+  port: process.env.PORT || 3000,
+  host: '0.0.0.0',
   labels: ['web']
 });
 
