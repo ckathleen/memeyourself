@@ -1,2 +1,2 @@
-#created simple hapi server
-#$ nodemon server.js 
+#run simple hapi server
+# nodemon server.js 
